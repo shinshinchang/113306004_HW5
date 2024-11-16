@@ -45,7 +45,7 @@ body {
 }
 
 .text-content h1 {
-    font-size: 2rem; /* 修改 Listen 字體大小，使其比 About Me 大 */
+    font-size: 2rem;
     text-align: center;
 }
 
@@ -74,8 +74,9 @@ section h2 {
 
 .timeline .item {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     margin-bottom: 10px;
+    gap: 15px;
 }
 
 .homework-list ul {
@@ -101,7 +102,7 @@ section h2 {
 }
 
 .favorite-music img {
-    width: 80%;
+    width: 70%;
     aspect-ratio: 1 / 1;
     object-fit: cover;
     border-radius: 5px;
